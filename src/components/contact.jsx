@@ -1,8 +1,5 @@
-import { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
-// import emailjs from "emailjs-com";
+import { useState } from "react";
 import React from "react";
-import usePostFetch from "../myPsHooks/usePostFetch";
 
 const initialState = {
   name: "",
@@ -10,38 +7,11 @@ const initialState = {
   message: "",
 };
 export const Contact = ({ data }) => {
+
   const [{ name, email, message }, setState] = useState(initialState);
   const [isLoading, setIsLoading] = useState(false);
   const [result, setResult] = useState(null);
   const [error, setError] = useState(null);
-
-  // function usePostFetch (url, data) {
-  //   const [error, setError] = useState(null);
-  //   const [result, setResult] = useState(null);
-  //   const [load, setLoad] = useState(true);
-
-  //   useEffect(()=> {
-  //       fetch(url, {
-  //           method: "POST",
-  //           contentType: "application/json;",
-  //           body: JSON.stringify(data)
-  //       }).then(response => {
-  //           return response.json()
-  //       }).then(res => {
-  //           setResult(res);
-  //           setLoad(false);
-  //       }).catch(err => {
-  //           setError(err.message);
-  //           setLoad(false);
-  //       })
-  //   }, [url, data]);
-
-  //   return {
-  //       load,
-  //       error,
-  //       result
-  //   }
-  // }
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -203,7 +173,7 @@ export const Contact = ({ data }) => {
           <p>
             &copy; 2023 Desiré Portfolio. Design by{" "}
             <a href="http://localhost:3000" rel="nofollow">
-              TemplateWire
+              DesiCode
             </a>
           </p>
         </div>
