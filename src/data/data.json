@@ -172,13 +172,13 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-code",
+      "title": "Code",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-laptop",
+      "title": "Développeur Web",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
@@ -187,8 +187,8 @@
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-mobile",
+      "title": "Apprenti",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
   ]

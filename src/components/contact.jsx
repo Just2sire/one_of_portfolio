@@ -22,7 +22,7 @@ export const Contact = ({ data }) => {
   const HandleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
-    console.log(name, email, message);
+    // console.log(name, email, message);
     const data = {
       nom: name,
       email,
